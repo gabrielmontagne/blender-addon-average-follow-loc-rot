@@ -11,8 +11,8 @@ bl_info = {
     'author': 'gabriel montagné, gabriel@tibas.london',
     'version': (0, 0, 1),
     'blender': (2, 79, 0),
-    'description': 'Adds a panel in the Objects property where you can select a target object from which to copy the last _n_ frames, averaged out.',
-    'warning': 'The addon is very simple: the position and rotation is read from the target object's f - curves: so it needs to be animated - - constraint animations, etc. would need to be baked.',
+    'description': "Adds a panel in the Objects property where you can select a target object from which to copy the last _n_ frames, averaged out.",
+    'warning': "The addon is very simple: the position and rotation is read from the target object's f - curves: so it needs to be animated - - constraint animations, etc. would need to be baked.",
     'tracker_url': 'https://github.com/gabrielmontagne/blender-addon-average-follow-loc-rot',
     'category': 'Object'
 }
